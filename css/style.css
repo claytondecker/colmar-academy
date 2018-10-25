@@ -1,7 +1,10 @@
 * {
   box-sizing: border-box;
 }
+/* Universal Styles */
+.maj-cont {
 
+}
 /* Navigation */
 header nav {
   display: flex;
