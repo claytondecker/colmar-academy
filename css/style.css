@@ -4,7 +4,6 @@
 
 /* Navigation */
 header nav {
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -18,7 +17,6 @@ header nav ul {
 
 header nav ul li {
   display: inline-block;
-  border: 1px solid red;
 }
 
 header nav ul.mobile {
