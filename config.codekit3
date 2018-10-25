@@ -7,8 +7,38 @@
 		"uuidString": "39D38A6B-C26D-4622-AE87-3CEF1EB2C206"
 		}
 	],
-"creatorBuild": "28901",
+"creatorBuild": "28905",
 "files": {
+	"/css/reset-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/reset-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/reset.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/reset-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/style-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/style.css": {
 		"aP": 1,
 		"bl": 0,
