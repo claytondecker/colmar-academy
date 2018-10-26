@@ -5,6 +5,14 @@
 .maj-cont {
 
 }
+
+.mob {
+  display: none;
+}
+
+.wdscrn {
+
+}
 /* Navigation */
 header nav {
   display: flex;
