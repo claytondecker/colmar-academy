@@ -9,6 +9,8 @@ a, h1, h2, h3, h4, h5, h5, p {
 }
 a {
   text-decoration: none;
+  transition: color 200ms linear 0ms,
+  background-color 200ms linear 0ms;
 }
 
 a:hover {
@@ -40,7 +42,8 @@ h1 {
 }
 
 h2 {
-
+  font-size: 38px;
+  font-weight: bold;
 }
 
 h3 {
@@ -50,6 +53,11 @@ h3 {
 
 h4 {
 
+}
+
+p {
+  font-size: 16px;
+  line-height: 140%;
 }
 
 .mob {
@@ -139,4 +147,80 @@ main .headline h1 {
 }
 main .headline a.button  {
   margin-top: 36px;
+}
+
+
+/* Campus Section */
+.campus {
+  display: flex;
+  padding: 32px 24px;
+}
+
+.campus .left {
+  width: 60%;
+  height: 60%;
+  margin-right: 24px;
+}
+.campus .left img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 32px;
+}
+
+.campus .left h2 {
+  margin-bottom: 24px;
+}
+
+.campus .left p {
+  margin-bottom: 24px;
+}
+
+.campus .left p.credit {
+  color: black;
+}
+
+.campus .right {
+  /*width: calc(40% - 24px);*/
+  border-left: 1px solid gray;
+}
+
+.campus .right .info-block {
+  display: flex;
+  align-items: center;
+  padding: 12px 12px 12px 18px;
+  transition-property: background-color;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+
+.campus .right .info-block:hover {
+  background-color: #d8d8d8;
+}
+
+.campus .right .info-block img {
+  width: 30%;
+  height: auto;
+}
+
+.campus .right .info-block .text-container {
+  width: 65%;
+  padding: 12px 22px;
+}
+
+.campus .right .info-block .text-container h3 {
+  markgin-bottom: 8px;
+}
+
+.campus .right .info-block .text-container p {
+  margin-bottom: 8px;
+}
+
+.campus .right .info-block .text-container a {
+  color: #4a90e2;
+  transition: underline 200ms linear 0ms;
+}
+
+.campus .right .info-block .text-container a:hover {
+  color: #4a90e2;
+  text-decoration: underline;
 }
