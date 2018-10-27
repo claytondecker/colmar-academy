@@ -16,8 +16,27 @@ a:hover {
   color: #18547A;
 }
 
-h1 {
+a.button {
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 26px;
+  background-color: #4a4a4a;
+  color: white;
+}
 
+a.button:hover {
+  color: #4a4a4a;
+  background-color: white;
+  padding: 7px;
+  border: 1px solid #4a4a4a;
+
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
 }
 
 h2 {
@@ -25,14 +44,11 @@ h2 {
 }
 
 h3 {
-
+  font-size: 28px;
+  font-weight: bold;
 }
 
 h4 {
-
-}
-
-.maj-cont {
 
 }
 
@@ -40,12 +56,35 @@ h4 {
   display: none;
 }
 
-.wdscrn {
+.desktop {
 
 }
 
 .info-block {
 
+}
+
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 38px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+  a.button {
+    font-size: 16px;
+  }
 }
 
 /* Navigation */
@@ -76,4 +115,28 @@ header ul li {
   display: inline-block;
   margin-right: 16px;
   font-size: 20px;
+}
+
+/* Main Section */
+main {
+  display: flex;
+  align-items: center;
+  padding: 32px 24px;
+  background-color: #d8d8d7;
+}
+main img {
+  width: 60%;
+  height: 60%;
+  margin-right: 24px;
+}
+main .headline {
+  max-width: 365px;
+  margin: 0 auto;
+}
+
+main .headline h1 {
+  margin-bottom: 32px;
+}
+main .headline a.button  {
+  margin-top: 36px;
 }
