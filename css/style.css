@@ -185,7 +185,7 @@ main .headline a.button  {
 }
 
 .campus .right {
-  border-left: 1px solid gray;
+  border-left: 1px solid #e0e2e2;
 }
 
 .campus .right .info-block {
@@ -300,7 +300,7 @@ main .headline a.button  {
 
 
 .thesis .right {
-  border-left: 1px solid gray;
+  border-left: 1px solid #e0e2e2;
 }
 
 .thesis .right .info-block {
@@ -342,4 +342,16 @@ main .headline a.button  {
 .thesis .right .info-block .text-container a:hover {
   color: #4a90e2;
   text-decoration: underline;
+}
+
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  padding: 16px 24px 48px 24px;
+  border-top: 1px solid #e0e2e2;
 }
