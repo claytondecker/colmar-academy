@@ -224,3 +224,41 @@ main .headline a.button  {
   color: #4a90e2;
   text-decoration: underline;
 }
+
+/* Majors Section */
+.majors {
+  background-color: #eaebec;
+  padding: 32px 40px 32px 72px;
+}
+
+.majors h2 {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.majors .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1525px;
+  margin: 0 auto;
+}
+
+.majors .flex-container .course-box {
+  margin: 0 32px 32px 0;
+  background-color: white;
+  max-width: 350px;
+}
+
+.majors .flex-container .course-box img {
+  width: 100%;
+}
+
+.majors .flex-container .course-box .text-container {
+  padding: 16px;
+}
+
+.majors .flex-container .course-box .text-container h4 {
+    margin: 16px 0 8px 0;
+    text-transform: uppercase;
+}
