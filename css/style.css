@@ -125,7 +125,7 @@ header ul li {
   font-size: 20px;
 }
 
-@media  screen and (max-width: 670px) {
+@media screen and (max-width: 670px) {
     header  {
       padding: 0 0 0 8px;
       height: 56px;
@@ -145,7 +145,7 @@ header ul li {
 }
 
 
-@media  screen and (max-width: 535px) {
+@media screen and (max-width: 535px) {
   .mob {
     display: initial;
   }
@@ -189,7 +189,7 @@ main .headline a.button  {
   margin-top: 36px;
 }
 
-@media  screen and (max-width: 535px) {
+@media screen and (max-width: 535px) {
   main {
     padding: 0;
     display: block;
@@ -283,12 +283,26 @@ main .headline a.button  {
   text-decoration: underline;
 }
 
-/*@media  screen and (max-width: 770px) {
-.campus .left img {
-    min-width: 330px;
+@media screen and (max-width: 535px) {
+  .campus .left {
+    display: none;
   }
+
+  .campus .right {
+    border: none;
+  }
+  
+  .campus .right .info-block {
+    display: block;
+  }
+
+  .campus .right .info-block img.desktop {
+    display: none;
+  }
+  .campus .right .info-block img.mob {
+      width: 100%;
+    }
 }
-*/
 
 /* Majors Section */
 .majors {
