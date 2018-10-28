@@ -86,9 +86,6 @@ p {
     font-size: 28px;
   }
 
-  h3 {
-    font-size: 16px;
-  }
   a.button {
     font-size: 16px;
   }
@@ -289,13 +286,16 @@ main .headline a.button  {
   }
 
   .campus .right {
-    border: none;
+    border-left: none;
+    border-bottom: 1px solid #e0e2e2;
   }
-  
+
   .campus .right .info-block {
     display: block;
   }
-
+  .campus .right .info-block .text-container {
+    width: 100%;
+  }
   .campus .right .info-block img.desktop {
     display: none;
   }
@@ -340,6 +340,27 @@ main .headline a.button  {
 .majors .flex-container .course-box .text-container h4 {
     margin: 16px 0 8px 0;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 535px) {
+  .majors {
+    background-color: white;
+    padding: 32px 16px;
+    border-bottom: 1px solid #e0e2e2;
+  }
+
+  .majors .flex-container {
+    display: none;
+  }
+
+  .majors .mob {
+    display: block;
+    width: 100%;
+  }
+
+  .majors .mob h3 {
+
+  }
 }
 
 
