@@ -3,10 +3,12 @@
   box-sizing: border-box;
 
 }
+
 a, h1, h2, h3, h4, h5, h5, p {
   font-family: 'Source Sans Pro', sans-serif;
   color: #4a4a4a;
 }
+
 a {
   text-decoration: none;
   transition: color 200ms linear 0ms,
@@ -33,7 +35,6 @@ a.button:hover {
   background-color: white;
   padding: 7px;
   border: 1px solid #4a4a4a;
-
 }
 
 h1 {
@@ -72,6 +73,8 @@ p {
 
 }
 
+
+/* Universal Styles - Media Queries */
 @media screen and (max-width: 1000px) {
   h1 {
     font-size: 38px;
@@ -94,6 +97,7 @@ p {
     font-size: 16px;
   }
 }
+
 
 /* Navigation */
 header {
@@ -124,6 +128,7 @@ header ul li {
   margin-right: 16px;
   font-size: 20px;
 }
+
 
 /* Main Section */
 main {
@@ -180,7 +185,6 @@ main .headline a.button  {
 }
 
 .campus .right {
-  /*width: calc(40% - 24px);*/
   border-left: 1px solid gray;
 }
 
@@ -208,7 +212,7 @@ main .headline a.button  {
 }
 
 .campus .right .info-block .text-container h3 {
-  markgin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .campus .right .info-block .text-container p {
@@ -224,6 +228,7 @@ main .headline a.button  {
   color: #4a90e2;
   text-decoration: underline;
 }
+
 
 /* Majors Section */
 .majors {
@@ -261,4 +266,80 @@ main .headline a.button  {
 .majors .flex-container .course-box .text-container h4 {
     margin: 16px 0 8px 0;
     text-transform: uppercase;
+}
+
+
+/* Thesis Section */
+.thesis {
+  padding: 32px 24px;
+}
+
+.thesis h2 {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.thesis .flex-container {
+  display: flex;
+}
+
+.thesis .left {
+  width: 60%;
+  height: 60%;
+  margin-right: 24px;
+}
+.thesis .left video {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 32px;
+}
+
+.thesis .left p {
+  margin-bottom: 24px;
+}
+
+
+.thesis .right {
+  border-left: 1px solid gray;
+}
+
+.thesis .right .info-block {
+  display: flex;
+  align-items: center;
+  padding: 12px 12px 12px 18px;
+  transition-property: background-color;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+
+.thesis .right .info-block:hover {
+  background-color: #d8d8d8;
+}
+
+.thesis .right .info-block img {
+  width: 30%;
+  height: auto;
+}
+
+.thesis .right .info-block .text-container {
+  width: 65%;
+  padding: 12px 22px;
+}
+
+.thesis .right .info-block .text-container h3 {
+  margin-bottom: 8px;
+}
+
+.thesis .right .info-block .text-container p {
+  margin-bottom: 10px;
+}
+
+.thesis .right .info-block .text-container a {
+  color: #4a90e2;
+  transition: underline 200ms linear 0ms;
+}
+
+.thesis .right .info-block .text-container a:hover {
+  color: #4a90e2;
+  text-decoration: underline;
 }
