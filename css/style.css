@@ -1,7 +1,6 @@
 /* Universal Styles */
 * {
   box-sizing: border-box;
-
 }
 
 a, h1, h2, h3, h4, h5, h5, p {
@@ -194,6 +193,7 @@ main .headline a.button  {
 
   main img {
     width: 100%;
+    margin: 0;
   }
 
   main .headline {
@@ -396,7 +396,6 @@ main .headline a.button  {
   margin-bottom: 24px;
 }
 
-
 .thesis .right {
   border-left: 1px solid #e0e2e2;
 }
@@ -442,6 +441,25 @@ main .headline a.button  {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 535px) {
+  .thesis {
+    padding: 32px 0 24px 0;
+  }
+
+  .thesis .left {
+    width: 100%;
+    margin: 0;
+  }
+
+  .thesis .left video {
+    margin-bottom: 0px;
+  }
+
+  .thesis .left h3, .thesis .left p, .thesis .right {
+    display: none;
+  }
+}
+
 
 /* Footer */
 footer {
@@ -452,4 +470,15 @@ footer {
 footer {
   padding: 16px 24px 48px 24px;
   border-top: 1px solid #e0e2e2;
+}
+
+@media screen and (max-width: 535px) {
+  footer {
+    border-top: none;
+    padding-bottom: 16px;
+  }
+
+  footer p.terms {
+    display: none;
+  }
 }
