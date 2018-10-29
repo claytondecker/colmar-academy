@@ -280,7 +280,11 @@ main .headline a.button  {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 800px) {
+  .campus .mob {
+    display: initial;
+  }
+
   .campus .left {
     display: none;
   }
@@ -295,13 +299,14 @@ main .headline a.button  {
   }
   .campus .right .info-block .text-container {
     width: 100%;
+    padding-left: 0px;
   }
   .campus .right .info-block img.desktop {
     display: none;
   }
   .campus .right .info-block img.mob {
-      width: 100%;
-    }
+    width: 100%;
+  }
 }
 
 /* Majors Section */
@@ -441,7 +446,7 @@ main .headline a.button  {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 800px) {
   .thesis {
     padding: 32px 0 24px 0;
   }
