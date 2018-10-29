@@ -345,7 +345,7 @@ main .headline a.button  {
 @media screen and (max-width: 535px) {
   .majors {
     background-color: white;
-    padding: 32px 16px;
+    padding: 0px 16px 24px 16px;
     border-bottom: 1px solid #e0e2e2;
   }
 
@@ -359,8 +359,11 @@ main .headline a.button  {
   }
 
   .majors .mob h3 {
-
+    background-color:#d8d8d8;
+    padding: 24px 16px;
+    margin-bottom: 8px;
   }
+
 }
 
 
